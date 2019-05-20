@@ -32,7 +32,7 @@ Run the following commands to open the node console then deploy your contract to
 ```
 HAYTHAM:~/hello_world_voting$ node
 > Web3 = require('web3')
-> web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+> web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7545"));
 > code = fs.readFileSync('Voting.sol').toString()
 > solc = require('solc')
 > compiledCode = solc.compile(code)
